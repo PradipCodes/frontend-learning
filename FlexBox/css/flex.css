@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Title Texts */
+.heading {
+    font-size: 36px;
+}
+
+/* Navogation Bars */
+nav {
+    background-color: rgb(9, 237, 237);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 1em;
+    /* margin: 0.8em; */
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10vw;
+}
+
+.logo>img {
+    height: 20vh;
+    width: auto;
+}
+
+.slider-container {
+    display: flex;
+    /* padding-top: 5em; */
+    padding-bottom: 3em;
+    background-color: rgb(9, 237, 237);
+    justify-content: center;
+}
+
+.image-place {
+    padding-right: 2em;
+}
+
+.image-place>img {
+    height: 40vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    text-align: center;
+    padding: 5em;
+}
+
+.description {
+    color: white;
+    line-height: 2;
+}
+
+button {
+    background-color: rgb(110, 110, 175);
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+/* Team Container */
+.team {
+    text-align: center;
+    background-color: blueviolet;
+    font-size: larger;
+    padding: 15px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    width: calc(100vw/5);
+    padding: 8px;
+}
+
+.team-member>img {
+    width: calc(100vw/5);
+    object-fit: cover;
+    border: 2px solid blue;
+    border-radius: 5%;
+}
+
+/* Qupte Container */
+.quote {
+    background-color: aliceblue;
+}
+
+.main-quote {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    color: blue;
+
+}
+
+.quoter {
+    padding-right: 05em;
+    text-align: right;
+    font-size: 30px;
+    color: blue;
+}
+
+/* Newsletter Container */
+.newsletter {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    height: 25vh;
+    align-items: center;
+    margin: 70px 200px 70px 200px;
+    background-color: blue;
+}
+
+/* Footer Container */
+.footer {
+    box-sizing: content-box;
+    height: 10vh;
+    background-color: grey;
+    text-align: center;
+    padding-top: 50px;
+}
