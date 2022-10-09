@@ -1,0 +1,127 @@
+h1{
+    text-align: center;
+}
+
+/* Robot Head */
+.robot-head {
+    width: 20vw;
+    height: 20vh;
+    background-color: blue;
+    margin: auto;
+    border-radius: 60% 60% 0px 0px;
+    transition: all 1s;
+}
+
+.robot-head:hover{
+    width: 30vw;
+    transition: 1s ease-in-out;
+
+}
+
+/* Robot Eye  */
+.left-eye{
+    display: inline-block;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 13vh;
+    margin-left: 3vw;
+}
+
+.right-eye{
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 13vh;
+    margin-left: 10vw;
+}
+
+/* Robot body part */
+.main-body{
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+}
+
+.robot-center {
+    width: 20vw;
+    height: 40vh;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    border-radius: 0px 0px 20% 20%;
+}
+
+.hands{
+    display: inline-block;
+    height: 30vh;
+}
+
+.left-hand{
+    display: inline-block;
+    width: 4vw;
+    height: 100%;
+    background-color: blue;
+    margin-left: -5vw;
+    transform-origin: left top;
+    transition: transform 1s;
+}
+
+.left-hand:hover{
+    transform: rotate(30deg);
+}
+
+.right-hand{
+    display: inline-block;
+    width: 4vw;
+    height: 100%;
+    background-color: blue;
+    margin-left: 22vw;
+    transform-origin: left top;
+    transition: transform 1s;
+}
+
+.right-hand:hover{
+    transform: rotate(-30deg);
+}
+
+/* Robot Leg Part */
+.legs {
+    display: flex;
+    width: 12vw;
+    margin: auto;
+    align-items: space-between;
+}
+
+.leg1 {
+    width: 2vw;
+    height: 20vh;
+    background-color: blue;
+    border-radius: 0 0 30% 30%;
+    margin: auto;
+    transform-origin: left top;
+    transition: transform 1s;
+}
+
+.leg1:hover{
+    transform: rotate(20deg);
+}
+
+.leg2 {
+    width: 2vw;
+    height: 20vh;
+    background-color: blue;
+    border-radius: 0 0 30% 30%;
+    margin: auto;
+    margin-left: 10vw;
+    transform-origin: left top;
+    transition: transform 1s;
+}
+
+.leg2:hover{
+    transform: rotate(-20deg);
+}
