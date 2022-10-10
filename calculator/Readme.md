@@ -1,0 +1,1 @@
+A simple calcuator using HTML and CSS. View the project [here](https://pradipcodes.github.io/frontend-learning/css)
